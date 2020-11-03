@@ -31,7 +31,7 @@ unique = []
 for r in rP:
     collection = True
     for u in unique:
-        if norm2( r, u ) < EPS_2 ):
+        if norm2( r, u ) < EPS_2:
             collection = False
             break
     if collection:
