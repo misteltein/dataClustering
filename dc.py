@@ -11,19 +11,19 @@ P = np.loadtxt( "sampleA.csv", delimiter=',', skiprows=1)
 def norm2( a, b ):
     # Vectors a, b |-> Scalar
     # Return the squared distance between a and b
-    # Write code yourself
+    # Your code here
 
 def g( a, b ):
     # Vectors a, b |-> Scalar
-    # Write code yourself
+    # Your code here
 
 def next( x_t ):
     # Vector x_t |-> Vector
-    # Write code yourself
+    # Your code here
 
 def x_r( x0 ):
     # Vector x0 |-> Vector
-    # Write code yourself
+    # Your code here
 
 rP = [ x_r( pi ) for pi in P[ 0 : numPoints ] ]
 
